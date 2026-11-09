@@ -14,27 +14,41 @@ a {
   text-decoration: none;
   display: inline-block;
 }
+
+.heading span {
+  color: #f42a41;
+  font-family: "Inter", sans-serif;
+  font-size: 13px;
+  font-weight: 600;
+}
+
+.heading h2 {
+  font-family: "Bebas Neue", sans-serif;
+  font-size: 72px;
+  font-weight: 400;
+  color: #f4efe6;
+}
 /* COMMON CSS END */
 
 /* NAV SECTION START */
-.navbar{
-    background-color: #07110D;
-    padding: 30px 0;
+.navbar {
+  background-color: #07110d;
+  padding: 30px 0;
 }
 
-.nav-link{
-    color: #9DB3A8;
-    font-family: "Inter", sans-serif;
-    font-weight: 500;
-    font-size: 15px;
-    text-transform: capitalize;
-    margin: 0 20px;
+.nav-link {
+  color: #9db3a8;
+  font-family: "Inter", sans-serif;
+  font-weight: 500;
+  font-size: 15px;
+  text-transform: capitalize;
+  margin: 0 20px;
 }
 
-.nav-link:hover{
-    color: #9DB3A8;
+.nav-link:hover {
+  color: #9db3a8;
 }
-.nav_button{
+.nav_button {
   background-color: #1fb57f;
   color: #000000;
   font-family: "Inter", sans-serif;
@@ -44,3 +58,510 @@ a {
   border-radius: 999px;
 }
 /* NAV SECTION END */
+/* BANNER SECTION START */
+#banner {
+  background-color: #07110d;
+  padding-top: 60px;
+  padding-bottom: 100px;
+}
+
+.banner_imgPart {
+  position: relative;
+}
+
+.banner_overlay {
+  padding: 18px 22px;
+  border-radius: 18px;
+  background-color: #07110d;
+  position: absolute;
+  bottom: 12px;
+  left: 20px;
+  text-align: left;
+  /* display: flex;
+  align-items: center; */
+}
+
+.banner_overlay h3 {
+  font-family: "Bebas Neue", sans-serif;
+  font-size: 28px;
+  font-weight: 400;
+  color: #f4efe6;
+  width: 100%;
+}
+.banner_overlay p {
+  font-family: "Inter", sans-serif;
+  font-size: 13px;
+  font-weight: 400;
+  color: #9db3a8;
+  width: 100%;
+}
+
+.banner_text h4 {
+  font-family: "Inter", sans-serif;
+  font-weight: 600;
+  font-size: 13px;
+  margin-left: 45px;
+  color: #1fb57f;
+  position: relative;
+}
+
+.banner_text h4::after {
+  content: "";
+  height: 3px;
+  width: 40px;
+  background-color: #f42a41;
+  position: absolute;
+  top: 38%;
+  left: -45px;
+  /* transform: translateX(-50%); */
+}
+
+.banner_text h1 {
+  font-family: "Bebas Neue", sans-serif;
+  font-size: 148px;
+  font-weight: 400;
+  color: #f4efe6;
+  width: 456px;
+  line-height: 88%;
+  padding-top: 20px;
+  padding-bottom: 25px;
+}
+
+.banner_text p {
+  font-family: "Inter", sans-serif;
+  font-size: 19px;
+  font-weight: 400;
+  color: #9db3a8;
+  padding-bottom: 22px;
+}
+
+.banner_btn {
+  display: flex;
+  align-items: center;
+}
+
+.banner_btn a {
+  background-color: #f42a41;
+  color: #f4efe6;
+  font-size: 16px;
+  font-weight: 600;
+  font-family: "Inter", sans-serif;
+  padding: 16px 28px;
+  border-radius: 999px;
+  margin-right: 20px;
+  transition: 0.3s;
+}
+
+.banner_btn a span {
+  text-align: center;
+  margin-left: 8px;
+}
+
+.banner_btn a:hover {
+  background-color: transparent;
+  color: #f4efe6;
+  border: 2px solid #21402f;
+}
+
+/* BANNER SECTION END */
+
+/* SCORE SECTION START */
+#score {
+  background-color: #07110d;
+  padding-bottom: 100px;
+}
+.score_num {
+  padding: 28px;
+  border-radius: 20px;
+  background-color: #0e1f18;
+  width: 247px;
+  border: 1px solid #21402f;
+}
+.score_num h2 {
+  font-family: "Bebas Neue", sans-serif;
+  font-size: 72px;
+  font-weight: 400;
+  color: #f4efe6;
+}
+
+.score_num span {
+  color: #9db3a8;
+  font-family: "Inter", sans-serif;
+  font-weight: 500;
+  font-size: 15px;
+}
+/* SCORE SECTION END */
+
+/* ABOUT SECTION START */
+#about {
+  padding: 110px 0;
+  background-color: #0e1f18;
+}
+
+.about_txt {
+  padding-top: 40px;
+}
+
+.about_txt h2 {
+  font-family: "Bebas Neue", sans-serif;
+  font-size: 44px;
+  font-weight: 400;
+  color: #1fb57f;
+}
+
+.about_txt p {
+  font-family: "Inter", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  color: #9db3a8;
+  line-height: 165%;
+  padding: 10px 0;
+}
+
+.about_boxlist table {
+  width: 535px;
+  border: 1px solid #21402f;
+}
+
+.about_boxlist table tr {
+  border: 1px solid #21402f;
+}
+
+.first_td {
+  color: #9db3a8;
+  font-family: "Inter", sans-serif;
+  font-size: 12px;
+  font-weight: 600;
+  text-align: left;
+  padding: 16px 20px;
+}
+
+.second_td {
+  color: #f4efe6;
+  font-family: "Inter", sans-serif;
+  font-size: 15px;
+  font-weight: 500;
+  text-align: right;
+  padding: 16px 20px;
+}
+/* ABOUT SECTION END */
+
+/* CAREER SECTION START */
+#career {
+  background-color: #07110d;
+  padding: 110px 0;
+}
+
+#career .heading {
+  margin-bottom: 55px;
+}
+
+.career_card {
+  position: relative;
+}
+
+.career_card h3 {
+  font-family: "Bebas Neue", sans-serif;
+  font-size: 48px;
+  font-weight: 400;
+  color: #1fb57f;
+  padding-top: 20px;
+}
+
+.career_card h4 {
+  font-family: "Inter", sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+  color: #f4efe6;
+  padding-bottom: 14px;
+}
+
+.career_card p {
+  font-family: "Inter", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  width: 200px;
+  color: #9db3a8;
+}
+
+.career_card::after {
+  content: "";
+  height: 10px;
+  width: 10px;
+  border-radius: 50%;
+  background-color: #f42a41;
+  position: absolute;
+  top: -5px;
+}
+
+.career_card::before {
+  content: "";
+  height: 2px;
+  width: 180px;
+  background-color: #21402f;
+  position: absolute;
+  left: 30px;
+  top: -2px;
+}
+/* CAREER SECTION END */
+
+/* RECORD SECTION START */
+#record {
+  background-color: #0e1f18;
+  padding: 110px 0;
+}
+
+#record .heading {
+  margin-bottom: 56px;
+}
+
+#record table .test_heading {
+  font-family: "Bebas Neue", sans-serif;
+  font-size: 56px;
+  font-weight: 400;
+  color: #f42a41;
+  padding: 16px 20px;
+}
+
+#record table .record_btn {
+  position: relative;
+}
+
+#record table .record_btn a {
+  font-family: "Inter", sans-serif;
+  font-size: 12px;
+  font-weight: 500;
+  color: #9db3a8;
+  background-color: #13291f;
+  text-transform: capitalize;
+  padding: 6px 12px;
+  border-radius: 999px;
+  position: absolute;
+  bottom: 35%;
+  right: 10%;
+}
+
+.record_card {
+  background-color: #07110d;
+  border-radius: 24px;
+  padding: 13px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 360px;
+}
+
+#record table {
+  width: 358px;
+}
+
+#record table tr {
+  border-bottom: 1px solid #21402f;
+}
+
+#record table tr:last-child {
+  border-bottom: none;
+}
+
+#record table .first_td {
+  font-family: "Inter", sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  text-transform: capitalize;
+}
+
+#record table .second_td {
+  font-family: "Inter", sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  color: #f4efe6;
+  text-transform: capitalize;
+}
+
+.ODI {
+  color: #1fb57f !important;
+}
+.T20I {
+  color: #f4efe6 !important;
+}
+
+.record_text p {
+  color: #9db3a8;
+  font-family: "Inter", sans-serif;
+  font-size: 13px;
+  font-weight: 400;
+  padding-top: 56px;
+}
+/* RECORD SECTION END */
+
+/* HONOURS SECTION START */
+#honours {
+  padding: 110px 0;
+  background-color: #07110d;
+}
+
+#honours .heading {
+  margin-bottom: 56px;
+}
+
+.honour_card {
+  background-color: #0e1f18;
+  border-radius: 20px;
+}
+
+.card-title {
+  font-family: "Inter", sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+  color: #f4efe6;
+}
+
+.card-text {
+  font-family: "Inter", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  color: #9db3a8;
+}
+
+.honour_img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.honour_img img {
+  width: 60px;
+}
+/* HONOURS SECTION END */
+
+/* GALLERY SECTION START */
+#gallery {
+  padding: 110px 0;
+  background-color: #0e1f18;
+}
+
+#gallery .heading {
+  margin-bottom: 56px;
+}
+
+.memory_1 img {
+  border-radius: 24px;
+}
+
+.img_margin {
+  margin: 12px 0;
+}
+/* GALLERY SECTION END */
+
+/* CONTACT SECTION START */
+#contact {
+  padding: 110px 0;
+  background-color: #07110d;
+}
+
+.contact_box {
+  padding: 80px 0;
+  background-color: #006a4e;
+  border-radius: 32px;
+  text-align: center;
+}
+
+.contact_box span {
+  color: #f42a41;
+  font-family: "Inter", sans-serif;
+  font-size: 13px;
+  font-weight: 600;
+}
+
+.contact_box h2 {
+  font-family: "Bebas Neue", sans-serif;
+  font-size: 72px;
+  font-weight: 400;
+  color: #f4efe6;
+  line-height: 95%;
+  width: 900px;
+  margin: auto;
+  padding-top: 14px;
+}
+
+.contact_box p {
+  color: #f4efe6;
+  font-family: "Inter", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  width: 640px;
+  margin: auto;
+  padding: 28px;
+}
+
+.input-group {
+  width: 547px;
+  padding: 8px;
+  border-radius: 999px;
+  background-color: #07110d;
+  margin: auto;
+}
+
+.input-group input {
+  border: none;
+  outline: none;
+  background-color: transparent;
+}
+
+.input-group input::placeholder {
+  color: #9db3a8;
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+#contact button {
+  border-radius: 999px;
+  background-color: #f42a41;
+  color: #f4efe6;
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  border: none;
+  outline: none;
+  padding: 14px 28px;
+}
+
+/* CONTACT SECTION END */
+
+/* FOOTER SECTION START */
+#footer {
+  background-color: #07110d;
+  padding: 36px 0;
+  border-top: 2px solid #21402f;
+}
+
+#footer span {
+  font-family: "Bebas Neue", sans-serif;
+  font-size: 22px;
+  font-weight: 400;
+  color: #f4efe6;
+}
+#footer p {
+  color: #9db3a8;
+  font-family: "Inter", sans-serif;
+  font-size: 13px;
+  font-weight: 400;
+  display: flex;
+  justify-content: end;
+}
+
+.social_media {
+  display: flex;
+  justify-content: end;
+}
+
+#footer a {
+  color: #9db3a8;
+  font-family: "Inter", sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  padding-right: 24px;
+}
+
+/* FOOTER SECTION END */
